@@ -1,19 +1,21 @@
-Sensifai API Java Script Client
+Sensifai API Javascript Client
 ====================
 
-Sensifai API Java Script Client
+Sensifai API Javascript Client
 
-## Overview
-This Java Script client provides a wrapper around Sensifai [Image and Video recognition API](https://developer.sensifai.com).
+##Overview
+This Javascript client provides a wrapper around Sensifai [Image and Video recognition API](https://developer.sensifai.com)..
 
-## Installation
-The API client is available on NPM. A library that exposes functions to masks strings. To use it, it's pretty simple. First, you need to install it:
+##Installation
+The API client is available on NPM.
+A library that exposes functions to analyze videos and images.
+Using this API is pretty simple. First, you need to install it using npm:
 
 ```sh
 npm install sensifai-js-sdk
 ```
 
-Then, you can import its functions and use at will:
+Then, you can import its functions and use them as follows:
 
 ```js
 var sdk = require('sensifai-js-sdk');
@@ -24,11 +26,11 @@ var sensifai = new sdk({
 ```
 
 
-### Sample Usage
-The following example will set up the client and predict video attributes.
-First of all, you need to import the library and define an instance like above.
-You can get a free limited `token` from [Developer Panel](https://developer.sensifai.com)  by creating an application.
-After that if you want to process Data by url you can call `uploadByUrls` like a below sample code. 
+###Sample Usage
+The following example will set up the client and predict video or image attributes.
+First of all, you need to import the library and define an instance as mentioned above.
+You can get a free limited `token` from [Developer Panel](https://developer.sensifai.com) by creating an application.
+Then, if you want to process Data by URL you can call `uploadByUrls` like the below sample code.
 
 ```js
 /** This Function Return a Json Result **/
@@ -39,7 +41,7 @@ sensifai.uploadByUrls( urls_list, function (res) {
 });
 ```
 
-But if you want to process Data by File you can call `uploadByFiles` like a below sample code. 
+Also, if you want to process Data by File, you can call `uploadByFiles` like the following sample code. 
 
 ```js
 /** This Function Return a Json Result **/
@@ -50,8 +52,8 @@ sensifai.uploadByFiles( fileInput.files, function (res) {
 });
 ```
 
-at the end, to retrieve result of a task, pass it through `getResultByTaskID`.
-Please don't remember to pass a single `task id!` this function won't work with a list of task id.
+at the end, to retrieve the result of a task, pass it through `getResultByTaskID`.
+Please don't remember to pass a single `TaskID!` this function won't work with a list of task id.
 
 
 ```js
