@@ -3,10 +3,10 @@ Sensifai API Javascript Client
 
 Sensifai API Javascript Client
 
-##Overview
+## Overview
 This Javascript client provides a wrapper around Sensifai [Image and Video recognition API](https://developer.sensifai.com)..
 
-##Installation
+## Installation
 The API client is available on NPM.
 A library that exposes functions to analyze videos and images.
 Using this API is pretty simple. First, you need to install it using npm:
@@ -26,7 +26,7 @@ var sensifai = new sdk({
 ```
 
 
-###Sample Usage
+### Sample Usage
 The following example will set up the client and predict video or image attributes.
 First of all, you need to import the library and define an instance as mentioned above.
 You can get a free limited `token` from [Developer Panel](https://developer.sensifai.com) by creating an application.
