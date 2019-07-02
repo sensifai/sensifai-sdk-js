@@ -4,7 +4,7 @@ Sensifai API Java Script Client
 Sensifai API Java Script Client
 
 ## Overview
-This Java Script client provides a wrapper around Sensifai [https://developer.sensifai.com](Image and Video recognition API).
+This Java Script client provides a wrapper around Sensifai (https://developer.sensifai.com)[Image and Video recognition API].
 
 ## Installation
 The API client is available on NPM. A library that exposes functions to masks strings. To use it, it's pretty simple. First, you need to install it:
