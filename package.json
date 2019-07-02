@@ -1,0 +1,31 @@
+{
+  "name": "sensifai-js-sdk",
+  "version": "1.1.2",
+  "description": "This JavaScript client provides a wrapper around Sensifai Image and Video recognition API.",
+  "author": "Sensifai",
+  "license": "apache-2.0",
+  "main": "main.js",
+  "homepage": "https://sensifai.com/",
+  "keywords": [
+    "sensifai",
+    "js-sdk",
+    "javascript",
+    "pure-js",
+    "image-recognation",
+    "video-recognition",
+    "image-recognition-api",
+    "object-detection",
+    "video-analysis",
+    "video-recognition-api",
+    "face-detection",
+    "face-recognition",
+    "ai"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/sensifai/sensifai-sdk-js"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
